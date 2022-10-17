@@ -46,6 +46,7 @@ namespace Sabio.Services
             returnParameters: null);  
         }
 
+        /*
         public Paged<NewsletterSubscription> GetByPage(int pageIndex, int pageSize)
         {
             Paged<NewsletterSubscription> pagedResult = null;
@@ -80,7 +81,7 @@ namespace Sabio.Services
             return pagedResult;
 
         }
-
+        */
         public List<NewsletterSubscription> GetAllSubscribed()
         {
             List<NewsletterSubscription> list = null;
@@ -99,6 +100,7 @@ namespace Sabio.Services
             return list;
         }
 
+        /*
         public Paged<NewsletterSubscription> GetByCreatedBy(int pageIndex, int pageSize, string createdBy)
         {
             Paged<NewsletterSubscription> pagedResult = null;
@@ -132,7 +134,7 @@ namespace Sabio.Services
             }
             return pagedResult;
         }
-
+        */
 
 
 
